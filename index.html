@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mobile.css" />
 </head>
 <body>
 <div class="container">
@@ -28,9 +29,47 @@
                         </a>
                     </li>
                     <li class="hero__header__menu__item">
-                        <a class="hero__header__menu__item__link" href=".">
+                        <span class="hero__header__menu__item__link flex">
                             Zakres usług
-                        </a>
+                            <img class="hero__header__menu__item__link__icon" src="./img/faq-arrow.svg" alt="rozwin" />
+                        </span>
+                        <ul class="hero__header__menu__dropdown">
+                            <li>
+                                <a>
+                                    Prawno karne
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Rozwody
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Prawno rodzinne
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Prawno cywilne
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Prawno spadkowe
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Odszkodowania
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Obsługa prawna firm
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="hero__header__menu__item">
                         <a class="hero__header__menu__item__link" href=".">
@@ -51,7 +90,9 @@
                 Umów się na konsultację
             </a>
         </main>
-        <img class="hero__background" src="./img/kancelaria-prawnicza-wojciech-pilat.png" alt="kancelaria-prawnicza-wojeciech-pilat" />
+        <figure class="hero__backgroundWrapper">
+            <img class="hero__background" src="./img/kancelaria-prawnicza-wojciech-pilat.png" alt="kancelaria-prawnicza-wojeciech-pilat" />
+        </figure>
     </div>
 
     <section class="section section--1 w flex">
@@ -186,6 +227,20 @@
                 </a>
             </section>
         </section>
+    </section>
+
+    <section class="section section--3 w">
+        <h2 class="section__header">
+            Najczęstsze pytania - FAQ
+        </h2>
+        <div class="faq w flex">
+            <figure class="faq__imageWrapper">
+                <img class="img" src="./img/wojciech-pilat-faq.png" alt="kancelaria-adwokacka-biskupiec" />
+            </figure>
+            <div class="faq__content">
+
+            </div>
+        </div>
     </section>
 
     <section class="section section--3 w">

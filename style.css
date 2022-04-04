@@ -87,29 +87,48 @@ ul {
 
 .hero {
     min-height: 768px;
+    height: 100vh;
     padding: var(--padding);
 }
 
-.hero *:not(.hero__background) {
+.hero *:not(.hero__backgroundWrapper, .hero__background) {
     position: relative;
     z-index: 2;
 }
 
-.hero__header {
+.hero .hero__header {
+    position: relative;
     margin: auto;
     max-width: var(--maxWidth);
+    z-index: 3;
 }
 
-.hero__background {
+.hero__backgroundWrapper {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero__background {
+   width: 100%;
+   height: auto;
 }
 
 .hero__header__logoWrapper {
     width: 130px;
+}
+
+.hero__header__menu {
+    position: absolute !important;
+    right: 0;
+    top: 25%;
+}
+
+.hero__header__menu__list {
+    align-items: flex-start;
 }
 
 .hero__header__menu__item {
@@ -166,7 +185,8 @@ ul {
 }
 
 .hero__main {
-    margin-top: 120px;
+    width: 90%;
+    margin-top: 12%;
 }
 
 .section {
@@ -420,4 +440,71 @@ a.footer__col__link:hover {
 
 .footer--marginTop {
     margin-top: 15px;
+}
+
+.hero__header__menu__dropdown {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid var(--gold);
+    padding: 10px 20px;
+    height: auto;
+    z-index: -1;
+    opacity: 0;
+    transition: .2s all;
+}
+
+.hero__header__menu__item:hover .hero__header__menu__dropdown {
+    opacity: 1;
+    z-index: 500;
+}
+
+.hero__header__menu__dropdown li {
+    padding: 7px 0;
+    text-align: center;
+    border-bottom: 1px solid var(--gold);
+    font-size: 15px;
+}
+
+.hero__header__menu__dropdown li a {
+    transition: .1s all;
+}
+
+.hero__header__menu__dropdown li a:hover {
+    color: var(--gold);
+}
+
+.hero__header__menu__dropdown li:last-child {
+    border-bottom: none;
+}
+
+.hero__header__menu__item__link__icon {
+    width: 8px;
+    margin-left: 15px;
+    filter: brightness(0);
+}
+
+.hero__header__menu__item__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq {
+    margin: 50px auto 25px;
+}
+
+.faq__imageWrapper {
+    width: 30%;
+}
+
+.faq__content {
+    width: 70%;
+    height: 100%;
+    background: var(--main);
+    border: 2px solid var(--gold);
+    border-left: none;
+    padding: 20px;
 }

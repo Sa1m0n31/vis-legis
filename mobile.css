@@ -1,0 +1,147 @@
+@media(max-width: 1800px) {
+    .w {
+        max-width: 90%;
+    }
+
+    .hero .hero__header,
+    .hero__main {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .section__header {
+        font-size: 32px;
+    }
+
+    .offerBox__header {
+        font-size: 24px !important;
+    }
+
+    .offerBox__btn,
+    .section__caption,
+    .section__text {
+        font-size: 17px;
+    }
+
+    .offerBox__text {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1400px) {
+    .offerBox__imgWrapper {
+        height: 60px;
+    }
+
+    .offerBox {
+        height: 350px;
+    }
+
+    .offerBox__header {
+        font-size: 21px !important;
+        margin: 10px 0;
+    }
+
+    .offerBox__text {
+        font-size: 14px;
+    }
+
+    .offerBox__btn {
+        height: 45px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .section__header {
+        font-size: 24px;
+    }
+
+    .section__text {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 996px) {
+    .section__header {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section__header::before {
+        left: 50%;
+        top: -10px;
+        transform: translateX(-50%);
+    }
+
+    .section--1 .section__header::before {
+        width: 50px;
+    }
+
+    .section--2 .section__header::before {
+        width: 90px;
+    }
+
+    .section--1 {
+        flex-direction: column;
+    }
+
+    .section--1 .imgWrapper {
+        width: 80%;
+    }
+
+    .section--1 .section__article {
+        width: 100%;
+    }
+
+    .section--1 .imgWrapper {
+        margin-bottom: 40px;
+    }
+
+    .section__caption,
+    .section__text {
+        text-align: center;
+    }
+
+    .offerBox__row {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .offerBox__row:last-of-type {
+        margin-top: 0;
+    }
+
+    .offerBox__imgWrapper {
+        height: 50px;
+    }
+
+    .offerBox {
+        width: 100%;
+        margin-bottom: 25px !important;
+        max-width: 400px;
+        height: 300px;
+    }
+
+    .offerBox__header {
+        font-size: 20px !important;
+    }
+
+    .offerBox__btn {
+        height: 55px;
+    }
+}
+
+@media(max-width: 768px) {
+    .d-mobile {
+        display: block;
+    }
+
+    .d-desktop {
+        display: none;
+    }
+}
+
+@media(max-width: 576px) {
+
+}

@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4d02582-5d7c-43ee-a820-03c7aa307fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/faq-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/wojciech-pilat-faq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/menu.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kancelaria-prawnicza-wojciech-pilat.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/kancelaria-prawnicza-wojciech-pilat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648901416320</updated>
       <workItem from="1648901417426" duration="7625000" />
-      <workItem from="1649073086049" duration="3353000" />
+      <workItem from="1649073086049" duration="11297000" />
     </task>
     <servers />
   </component>

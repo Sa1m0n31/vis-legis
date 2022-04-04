@@ -16,8 +16,71 @@
             <a class="hero__header__logoWrapper" href=".">
                 <img class="img" src="./img/logo-sygnet.png" alt="wojciech-pilat" />
             </a>
-            <menu class="hero__header__menu">
-                <ul class="hero__header__menu__list flex">
+            <div class="hero__header__menu">
+                <button class="mobileMenuBtn d-mobile" onclick="openMenu()">
+                    <img class="img" src="./img/menu.svg" alt="menu" />
+                </button>
+                <menu class="mobileMenu d-mobile">
+                    <button class="mobileMenu__close" onclick="closeMenu()">
+                        <img class="img" src="./img/close.svg" alt="zamknij" />
+                    </button>
+                    <ul class="mobileMenu__list">
+                        <li class="mobileMenu__list__item mobileMenu__list__item--bold">
+                            <a class="mobileMenu__list__link">
+                                Strona główna
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item--bold">
+                            <a class="mobileMenu__list__link">
+                                O mnie
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item--header">
+                            Zakres usług
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Prawo karne
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Rozwody
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Prawo rodzinne
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Prawo cywilne
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Prawo spadkowe
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Odszkodowanie
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Obsługa prawna firm
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item--bold">
+                            <a class="mobileMenu__list__link">
+                                Kontakt
+                            </a>
+                        </li>
+                    </ul>
+                </menu>
+                <ul class="hero__header__menu__list flex d-desktop">
                     <li class="hero__header__menu__item">
                         <a class="hero__header__menu__item__link" href=".">
                             Strona główna
@@ -77,7 +140,7 @@
                         </a>
                     </li>
                 </ul>
-            </menu>
+            </div>
         </header>
         <main class="hero__main w">
             <h1 class="hero__main__header">
@@ -231,14 +294,132 @@
 
     <section class="section section--3 w">
         <h2 class="section__header">
-            Najczęstsze pytania - FAQ
+            Najczęstsze pytania
         </h2>
+        <h3 class="faq__mobileHeader d-mobile">
+            (naciśnij, by rozwinąć)
+        </h3>
         <div class="faq w flex">
             <figure class="faq__imageWrapper">
                 <img class="img" src="./img/wojciech-pilat-faq.png" alt="kancelaria-adwokacka-biskupiec" />
             </figure>
-            <div class="faq__content">
-
+            <div class="faq__content scroller">
+                <div class="faq__content__block">
+                    <div class="faq__content__questionWrapper flex">
+                        <button class="faq__content__question" onclick="faq(0)">
+                            Jak umówić się na spotkanie?
+                        </button>
+                        <img class="faq__content__icon" src="./img/faq-arrow.svg" alt="rozwin" />
+                    </div>
+                    <p class="faq__content__answer">
+                        Na spotkanie najlepiej umówić się telefonicznie, ale jest to również możliwe poprzez kontakt
+                        mailowy lub formularz kontaktowy znajdujący się na stronie internetowej. W przypadku kontaktu
+                        mailowego czy przy użyciu formularza, prosimy o podanie swoich danych wraz z krótkim
+                        przedstawieniem sprawy.
+                    </p>
+                </div>
+                <div class="faq__content__block">
+                    <div class="faq__content__questionWrapper flex">
+                        <button class="faq__content__question" onclick="faq(1)">
+                            Co ze sobą zabrać na spotkanie?
+                        </button>
+                        <img class="faq__content__icon" src="./img/faq-arrow.svg" alt="rozwin" />
+                    </div>
+                    <p class="faq__content__answer">
+                        Zakres niezbędnych dokumentów zależy od konkretnego przypadku. Na pewno trzeba zabrać ze
+                        sobą wszystkie dokumenty, którą mogą mieć związek ze sprawą. W przypadku wątpliwości lepiej
+                        zabrać ze sobą więcej dokumentów niż mniej. Brakujące dokumenty zawsze można dostarczyć
+                        do kancelarii w późniejszym terminie lub przesłać ich skan na adres e-mailowy kancelarii.
+                    </p>
+                </div>
+                <div class="faq__content__block">
+                    <div class="faq__content__questionWrapper flex">
+                        <button class="faq__content__question" onclick="faq(2)">
+                            Czego będzie ode mnie oczekiwał adwokat?
+                        </button>
+                        <img class="faq__content__icon" src="./img/faq-arrow.svg" alt="rozwin" />
+                    </div>
+                    <p class="faq__content__answer">
+                        Przede wszystkim pełnego zaufania i szczerości. Adwokat musi mieć wiedzę o wszystkich faktach
+                        i okolicznościach konkretnej sprawy. Dzięki temu nie zostanie zaskoczony faktami i będzie mógł
+                        przyjąć najkorzystniejszą strategię. Jednocześnie adwokat będzie oczekiwał współpracy ze strony
+                        Klienta, czyli stosowania się do rad i zaleceń adwokata
+                    </p>
+                </div>
+                <div class="faq__content__block">
+                    <div class="faq__content__questionWrapper flex">
+                        <button class="faq__content__question" onclick="faq(3)">
+                            Czy kancelaria prowadzi sprawy również poza Biskupcem?
+                        </button>
+                        <img class="faq__content__icon" src="./img/faq-arrow.svg" alt="rozwin" />
+                    </div>
+                    <p class="faq__content__answer">
+                        Oczywiście, kancelaria prowadzi sprawy na terenie całej Polski.
+                    </p>
+                </div>
+                <div class="faq__content__block">
+                    <div class="faq__content__questionWrapper flex">
+                        <button class="faq__content__question" onclick="faq(4)">
+                            Czy w kancelarii można płacić kartą?
+                        </button>
+                        <img class="faq__content__icon" src="./img/faq-arrow.svg" alt="rozwin" />
+                    </div>
+                    <p class="faq__content__answer">
+                        Tak, jest taka możliwość.
+                    </p>
+                </div>
+                <div class="faq__content__block">
+                    <div class="faq__content__questionWrapper flex">
+                        <button class="faq__content__question" onclick="faq(5)">
+                            Ile kosztują usługi kancelarii?
+                        </button>
+                        <img class="faq__content__icon" src="./img/faq-arrow.svg" alt="rozwin" />
+                    </div>
+                    <p class="faq__content__answer">
+                        Wszystko zależy od konkretnej sprawy. Przy wycenie usług brany jest pod uwagę stopień
+                        skomplikowania sprawy oraz nakład koniecznej pracy.
+                        W przypadku obsługi prawnej przedsiębiorców możliwe jest rozliczenie ryczałtowe lub godzinowe.
+                    </p>
+                </div>
+                <div class="faq__content__block">
+                    <div class="faq__content__questionWrapper flex">
+                        <button class="faq__content__question" onclick="faq(6)">
+                            Czy jest możliwość zlecenia sporządzenia pojedynczego pisma?
+                        </button>
+                        <img class="faq__content__icon" src="./img/faq-arrow.svg" alt="rozwin" />
+                    </div>
+                    <p class="faq__content__answer">
+                        Tak, nie trzeba zlecać prowadzenia całej sprawy. Przykładowo można zlecić napisanie tylko
+                        pozwu lub apelacji.
+                    </p>
+                </div>
+                <div class="faq__content__block">
+                    <div class="faq__content__questionWrapper flex">
+                        <button class="faq__content__question" onclick="faq(7)">
+                            Czy moje dane i udzielane informacje są bezpieczne?
+                        </button>
+                        <img class="faq__content__icon" src="./img/faq-arrow.svg" alt="rozwin" />
+                    </div>
+                    <p class="faq__content__answer">
+                        Cały proces obsługi Klienta, w tym przekazywane informacje, objęte są tajemnicą adwokacką.
+                        Klient może liczyć na pełną dyskrecję oraz zaufanie.
+                    </p>
+                </div>
+                <div class="faq__content__block">
+                    <div class="faq__content__questionWrapper flex">
+                        <button class="faq__content__question" onclick="faq(8)">
+                            Czy adwokat będzie na każdej rozprawie?
+                        </button>
+                        <img class="faq__content__icon" src="./img/faq-arrow.svg" alt="rozwin" />
+                    </div>
+                    <p class="faq__content__answer">
+                        Tak, udział w rozprawie jest jedną z głównych czynności prowadzenia sprawy Klienta. Regułą jest
+                        udział adwokata w każdej rozprawie. Mogą jednak zdarzyć się sytuacje szczególne (np. choroba,
+                        urlop, kolizja rozpraw), gdy na rozprawie pojawi się zastępca adwokata (inny adwokat, radca
+                        prawny, aplikant). Zawsze jednak jest to osoba zapoznana ze sprawą Klienta i w 100%
+                        zaangażowana w sprawę.
+                    </p>
+                </div>
             </div>
         </div>
     </section>

@@ -153,6 +153,26 @@
 }
 
 @media(max-width: 996px) {
+    .hero__header__logoWrapper .waiter__firstBorder {
+        width: 33px;
+        height: 25px;
+    }
+
+    .hero__header__logoWrapper .waiter__secondBorder {
+        width: 40px;
+        height: 20px;
+    }
+
+    .hero__header__logoWrapper:hover .waiter__firstBorder {
+        width: 33px;
+        height: 25px;
+    }
+
+    .hero__header__logoWrapper:hover .waiter__secondBorder {
+        width: 40px;
+        height: 20px;
+    }
+
     .section__header {
         width: 100%;
         text-align: center;
@@ -313,6 +333,11 @@
     }
 
     .d-desktop {
+        display: none;
+    }
+
+    .hero__header__logoWrapper .waiter__secondBorder,
+    .hero__header__logoWrapper .waiter__firstBorder {
         display: none;
     }
 

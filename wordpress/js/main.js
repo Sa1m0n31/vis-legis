@@ -61,10 +61,6 @@ const mainImageLoaded = () => {
     hero.style.opacity = '1';
 }
 
-setTimeout(() => {
-    mainImageLoaded();
-}, 3);
-
 const observer = lozad();
 observer.observe();
 console.log(observer)

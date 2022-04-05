@@ -99,10 +99,10 @@ ul {
 }
 
 .hero--page {
-    height: 160px;
+    height: 159px;
     min-height: 0;
-    background-image: url("./img/kancelaria-prawnicza-wojciech-pilat.png");
-    background-size: 100%;
+    background-image: url("./img/page-tlo.webp");
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 20px;
     position: relative;
@@ -683,7 +683,7 @@ a.footer__col__link:hover {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: #fff;
+    background: var(--main);
     z-index: 10;
     display: flex;
     justify-content: center;
@@ -712,16 +712,24 @@ a.footer__col__link:hover {
     animation: waiterBorderAnimation 4s infinite;
 }
 
-.hero__header__logoWrapper .waiter__firstBorder,
-.hero__header__logoWrapper .waiter__secondBorder {
-    width: 50px;
-    height: 50px;
+.hero__header__logoWrapper .waiter__firstBorder {
+    width: 133px;
+    height: 115px;
 }
 
-.hero__header__logoWrapper:hover .waiter__firstBorder,
+.hero__header__logoWrapper .waiter__secondBorder {
+    width: 140px;
+    height: 120px;
+}
+
+.hero__header__logoWrapper:hover .waiter__firstBorder {
+    width: 123px;
+    height: 105px;
+}
+
 .hero__header__logoWrapper:hover .waiter__secondBorder {
-    width: 70px;
-    height: 70px;
+    width: 130px;
+    height: 95px;
 }
 
 .hero__header__logoWrapper .img {
@@ -733,15 +741,15 @@ a.footer__col__link:hover {
 }
 
 .waiter__firstBorder {
-    top: -4px;
-    left: -4px;
+    top: -14px;
+    left: -14px;
     border-right: none;
     border-bottom: none;
 }
 
 .waiter__secondBorder {
-    bottom: -4px;
-    right: -4px;
+    bottom: -14px;
+    right: -14px;
     border-left: none;
     border-top: none;
 }

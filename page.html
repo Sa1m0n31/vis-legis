@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vis Legis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mobile.css" />
+</head>
+<body>
+<div class="container">
+    <div class="hero hero--page">
+        <header class="hero__header flex">
+            <a class="hero__header__logoWrapper" href=".">
+                <img class="img" src="./img/logo-sygnet.png" alt="wojciech-pilat" />
+            </a>
+            <div class="hero__header__menu">
+                <button class="mobileMenuBtn d-mobile" onclick="openMenu()">
+                    <img class="img" src="./img/menu.svg" alt="menu" />
+                </button>
+                <menu class="mobileMenu d-mobile">
+                    <button class="mobileMenu__close" onclick="closeMenu()">
+                        <img class="img" src="./img/close.svg" alt="zamknij" />
+                    </button>
+                    <ul class="mobileMenu__list">
+                        <li class="mobileMenu__list__item mobileMenu__list__item--bold">
+                            <a class="mobileMenu__list__link">
+                                Strona główna
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item--bold">
+                            <a class="mobileMenu__list__link">
+                                O mnie
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item--header">
+                            Zakres usług
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Prawo karne
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Rozwody
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Prawo rodzinne
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Prawo cywilne
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Prawo spadkowe
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Odszkodowanie
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item">
+                            <a class="mobileMenu__list__link" href="">
+                                Obsługa prawna firm
+                            </a>
+                        </li>
+                        <li class="mobileMenu__list__item mobileMenu__list__item--bold">
+                            <a class="mobileMenu__list__link">
+                                Kontakt
+                            </a>
+                        </li>
+                    </ul>
+                </menu>
+                <ul class="hero__header__menu__list flex d-desktop">
+                    <li class="hero__header__menu__item">
+                        <a class="hero__header__menu__item__link" href=".">
+                            Strona główna
+                        </a>
+                    </li>
+                    <li class="hero__header__menu__item">
+                        <a class="hero__header__menu__item__link" href=".">
+                            O mnie
+                        </a>
+                    </li>
+                    <li class="hero__header__menu__item">
+                        <span class="hero__header__menu__item__link flex">
+                            Zakres usług
+                            <img class="hero__header__menu__item__link__icon" src="./img/faq-arrow.svg" alt="rozwin" />
+                        </span>
+                        <ul class="hero__header__menu__dropdown">
+                            <li>
+                                <a>
+                                    Prawno karne
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Rozwody
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Prawno rodzinne
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Prawno cywilne
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Prawno spadkowe
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Odszkodowania
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Obsługa prawna firm
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="hero__header__menu__item">
+                        <a class="hero__header__menu__item__link" href=".">
+                            Kontakt
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <section class="section section--3 section--contact section--page w">
+        <div class="flex">
+            <div class="page--left">
+                <h2 class="section__header">
+                    Zakres usług w zakresie obsługi prawnej firm
+                </h2>
+                <ul class="offerContent">
+                    <li class="offerContent__item">
+                        doradztwo prawne
+                    </li>
+                    <li class="offerContent__item">
+                        stała obsługa prawna przedsiębiorców
+                    </li>
+                    <li class="offerContent__item">
+                        doradztwo prawne
+                    </li>
+                    <li class="offerContent__item">
+                        doradztwo prawne
+                    </li>
+                    <li class="offerContent__item">
+                        doradztwo prawne
+                    </li>
+                    <li class="offerContent__item">
+                        doradztwo prawne
+                    </li>
+                </ul>
+            </div>
+            <figure class="imgWrapper">
+                <img class="img" src="./img/wojciech-pilat.png" alt="wojciech-pilat" />
+                <span class="span"></span>
+            </figure>
+        </div>
+        <h2 class="section__header section__header--page">
+            Skontaktuj się
+        </h2>
+        <div id="map">
+
+        </div>
+    </section>
+    <footer class="section section--footer w flex">
+        <a class="footer__logo" href=".">
+            <img class="img" src="./img/wojciech-pilat-footer.png" alt="kancelaria-adwokacka-biskupiec" />
+        </a>
+        <div class="footer__cols flex">
+            <div class="footer__col">
+                <h6 class="footer__col__header">
+                    Mapa strony
+                </h6>
+                <a class="footer__col__link" href=".">
+                    Strona główna
+                </a>
+                <a class="footer__col__link" href=".">
+                    O mnie
+                </a>
+                <a class="footer__col__link" href=".">
+                    Oferta
+                </a>
+                <a class="footer__col__link" href=".">
+                    Kontakt
+                </a>
+            </div>
+            <div class="footer__col">
+                <h6 class="footer__col__header">
+                    Zakres usług
+                </h6>
+                <a class="footer__col__link" href=".">
+                    Prawo karne
+                </a>
+                <a class="footer__col__link" href=".">
+                    Rozwody
+                </a>
+                <a class="footer__col__link" href=".">
+                    Prawo rodzinne
+                </a>
+                <a class="footer__col__link" href=".">
+                    Prawo cywilne
+                </a>
+                <a class="footer__col__link" href=".">
+                    Prawo spadkowe
+                </a>
+                <a class="footer__col__link" href=".">
+                    Odszkodowania
+                </a>
+                <a class="footer__col__link" href=".">
+                    Obsługa prawna firm
+                </a>
+            </div>
+            <div class="footer__col">
+                <h6 class="footer__col__header">
+                    Dane kontaktowe
+                </h6>
+                <span class="footer__col__link">
+                <b>
+                    tel:
+                </b>
+                507 974 750 - Wojciech Piłat
+            </span>
+                <span class="footer__col__link">
+                <b>
+                    mail:
+                </b>
+                kontakt@adwokatpilat.pl
+            </span>
+            </div>
+            <div class="footer__col">
+                <h6 class="footer__col__header">
+                    Dane Kancelarii
+                </h6>
+                <span class="footer__col__link bold">
+                Kancelaria Adwokacja Wojciech Piłat
+            </span>
+                <span class="footer__col__link">
+                ul. Pionioerów 22/1 (wejście od ul. Szpitalnej)
+            </span>
+                <span class="footer__col__link">
+                11-300 Biskupiec
+            </span>
+                <span class="footer__col__link">
+                NIP: 8451899018
+            </span>
+                <span class="footer__col__link bold footer--marginTop">
+                Numer rachunku bankowego
+            </span>
+                <span class="footer__col__link">
+                23 3292 1000 1222 2884 2383 2388 (ING Bank Śląski S.A.)
+            </span>
+                <span class="footer__col__link bold footer--marginTop">
+                Filia w Olsztynie
+            </span>
+                <span class="footer__col__link">
+                ul. Kętrzyńskiego 4/4
+            </span>
+                <span class="footer__col__link">
+                10-507 Olsztyn
+            </span>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>

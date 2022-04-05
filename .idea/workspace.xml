@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4d02582-5d7c-43ee-a820-03c7aa307fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contact.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information-button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -54,12 +56,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis\img" />
     </key>
   </component>
@@ -72,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648901416320</updated>
       <workItem from="1648901417426" duration="7625000" />
-      <workItem from="1649073086049" duration="11297000" />
+      <workItem from="1649073086049" duration="16026000" />
     </task>
     <servers />
   </component>

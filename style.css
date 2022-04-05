@@ -97,6 +97,31 @@ ul {
     padding: var(--padding);
 }
 
+.hero--page {
+    height: 160px;
+    min-height: 0;
+    background-image: url("./img/kancelaria-prawnicza-wojciech-pilat.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    position: relative;
+}
+
+.hero--page::after {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: var(--maxWidth);
+    height: 1px;
+    background: #C49C47;
+}
+
+.hero--page .hero__header__logoWrapper {
+    width: 90px;
+}
+
 .hero *:not(.hero__backgroundWrapper, .hero__background) {
     position: relative;
     z-index: 2;
@@ -135,6 +160,10 @@ ul {
     position: absolute !important;
     right: 0;
     top: 25%;
+}
+
+.hero--page .hero__header__menu {
+    top: 35%;
 }
 
 .hero__header__menu__list {
@@ -200,7 +229,7 @@ ul {
 }
 
 .section {
-    margin: 70px auto;
+    margin: 100px auto;
 }
 
 .section__header {
@@ -281,6 +310,19 @@ ul {
     border-top: 1px solid var(--gold);
     border-left: 1px solid var(--gold);
     z-index: -2;
+}
+
+.imgWrapper .span::after {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    right: -14px;
+    width: 40%;
+    height: 150px;
+    background: transparent;
+    border-bottom: 1px solid var(--gold);
+    border-right: 1px solid var(--gold);
+    z-index: 2
 }
 
 .offerBox {
@@ -500,6 +542,11 @@ a.footer__col__link:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .2s all;
+}
+
+.hero__header__menu__item__link:hover {
+    color: var(--gold);
 }
 
 .faq {
@@ -559,4 +606,72 @@ a.footer__col__link:hover {
     opacity: 0;
     overflow: hidden;
     transition: .3s all;
+}
+
+.row--contact .offerBox__header {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 35px 0 25px;
+}
+
+.row--contact .offerBox {
+    margin: 0 40px;
+    justify-content: flex-start;
+}
+
+.row--contact {
+    margin: 40px auto;
+    justify-content: center;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.offerBox__text > span {
+    display: block;
+}
+
+.d-block {
+    display: block;
+}
+
+.offerBox--marginTop {
+    margin-top: 15px;
+}
+
+.offerContent {
+    margin-top: 40px;
+}
+
+.offerContent__item {
+    margin: 15px 0 15px 30px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.offerContent__item::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    width: 20px;
+    height: 1px;
+    background: var(--gold);
+}
+
+.section--page > .flex {
+    align-items: flex-start;
+}
+
+.page--left {
+    width: 60%;
+}
+
+.section--page .section__header {
+    font-size: 30px;
+}
+
+.section__header--page {
+    margin-top: 100px;
 }

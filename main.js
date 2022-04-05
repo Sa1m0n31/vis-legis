@@ -8,6 +8,9 @@ const allFaqArrows = Array.from(document.querySelectorAll('.faq__content__icon')
 const mobileMenu = document.querySelector('.mobileMenu');
 const mobileMenuChildren = Array.from(document.querySelectorAll('.mobileMenu>*'));
 
+const waiter = document.querySelector('.waiter');
+const hero = document.querySelector('.hero');
+
 const showAnswer = (n) => {
     allFaqAnswers[n].style.height = 'auto';
     allFaqAnswers[n].style.margin = '15px 0';
@@ -51,3 +54,13 @@ const closeMenu = () => {
         mobileMenu.style.transform = 'scaleX(0)';
     }, 300);
 }
+
+const mainImageLoaded = () => {
+    waiter.style.opacity = '0';
+    waiter.style.zIndex = '-10';
+    hero.style.opacity = '1';
+}
+
+setTimeout(() => {
+    mainImageLoaded();
+}, 3);

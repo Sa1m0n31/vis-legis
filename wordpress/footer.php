@@ -20,16 +20,16 @@
             <h6 class="footer__col__header">
                 Mapa strony
             </h6>
-            <a class="footer__col__link" href=".">
+            <a class="footer__col__link" href="<?php echo home_url(); ?>">
                 Strona główna
             </a>
-            <a class="footer__col__link" href=".">
+            <a class="footer__col__link" href="<?php echo home_url() . '#omnie'; ?>">
                 O mnie
             </a>
-            <a class="footer__col__link" href=".">
+            <a class="footer__col__link" href="<?php echo home_url() . '#oferta'; ?>">
                 Oferta
             </a>
-            <a class="footer__col__link" href=".">
+            <a class="footer__col__link" href="<?php echo get_page_link(get_page_by_title('Kontakt')->ID); ?>">
                 Kontakt
             </a>
         </div>
@@ -37,25 +37,25 @@
             <h6 class="footer__col__header">
                 Zakres usług
             </h6>
-            <a class="footer__col__link" href=".">
+            <a class="footer__col__link" href="<?php echo get_page_link(get_page_by_title('Prawo karne')->ID); ?>">
                 Prawo karne
             </a>
-            <a class="footer__col__link" href=".">
+            <a class="footer__col__link" href="<?php echo get_page_link(get_page_by_title('Rozwody')->ID); ?>">
                 Rozwody
             </a>
-            <a class="footer__col__link" href=".">
+            <a class="footer__col__link" href="<?php echo get_page_link(get_page_by_title('Prawo rodzinne')->ID); ?>">
                 Prawo rodzinne
             </a>
-            <a class="footer__col__link" href=".">
+            <a class="footer__col__link" href="<?php echo get_page_link(get_page_by_title('Prawo cywilne')->ID); ?>">
                 Prawo cywilne
             </a>
-            <a class="footer__col__link" href=".">
+            <a class="footer__col__link" href="<?php echo get_page_link(get_page_by_title('Prawo spadkowe')->ID); ?>">
                 Prawo spadkowe
             </a>
-            <a class="footer__col__link" href=".">
+            <a class="footer__col__link" href="<?php echo get_page_link(get_page_by_title('Odszkodowania')->ID); ?>">
                 Odszkodowania
             </a>
-            <a class="footer__col__link" href=".">
+            <a class="footer__col__link" href="<?php echo get_page_link(get_page_by_title('Obsługa prawna firm')->ID); ?>">
                 Obsługa prawna firm
             </a>
         </div>

@@ -29,7 +29,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 html {
+	scroll-behavior: smooth;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 .d-mobile {
@@ -73,6 +75,7 @@ html,
 
 .container {
 	position: relative;
+	overflow-x: hidden;
 }
 
 :root {
@@ -138,7 +141,7 @@ ul {
 	bottom: 30px;
 	left: 50%;
 	transform: translateX(-50%);
-	width: var(--maxWidth);
+	width: 1450px;
 	height: 1px;
 	background: #C49C47;
 }
@@ -155,7 +158,7 @@ ul {
 .hero .hero__header {
 	position: relative;
 	margin: auto;
-	max-width: var(--maxWidth);
+	max-width: 1450px;
 	z-index: 3;
 }
 
@@ -167,6 +170,10 @@ ul {
 	height: 100vh;
 	min-height: 900px;
 	overflow: hidden;
+}
+
+.hero, .hero__backgroundWrapper {
+	max-height: 1200px;
 }
 
 .hero__background {
@@ -210,7 +217,7 @@ ul {
 
 .w {
 	margin: auto;
-	max-width: var(--maxWidth);
+	max-width: 1450px;
 }
 
 .hero__main__header {
@@ -424,7 +431,13 @@ ul {
 }
 
 #map {
-	height: 400px;
+	height: 500px;
+	margin-top: -50px;
+	margin-bottom: -20px;
+}
+
+.container--page #map {
+	margin: 0 !important;
 }
 
 .section__contact__header {
@@ -513,7 +526,7 @@ a.footer__col__link:hover {
 }
 
 .bold {
-	font-weight: 700;
+	font-weight: 700 !important;
 }
 
 .footer--marginTop {
@@ -786,6 +799,53 @@ a.footer__col__link:hover {
 	background: var(--main);
 }
 
+.mapContents {
+	height: 0;
+	visibility: hidden;
+}
+
+#contentWindow {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	flex-wrap: wrap;
+	max-width: 250px;
+}
+
+.contentImg {
+	width: 100px;
+	height: 43px;
+	padding-right: 15px;
+	margin-top: 15px;
+}
+
+.contentHeader {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.contentAdress {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.contentAdress--marginBottom {
+	margin-bottom: 15px;
+}
+
+.page__text {
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 50px;
+}
+
+.section__subheader {
+	font-family: 'Cizel', serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: -20px;
+}
+
 @keyframes waiterBorderAnimation {
 	0% {
 		width: 100px;
@@ -961,6 +1021,11 @@ a.footer__col__link:hover {
 		height: 25px;
 	}
 
+	#map {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+
 	.hero__header__logoWrapper .waiter__secondBorder {
 		width: 40px;
 		height: 20px;
@@ -1125,8 +1190,16 @@ a.footer__col__link:hover {
 		margin-top: 180px;
 	}
 
+	.container--page .section--contact {
+		margin-top: 125px;
+	}
+
 	.hero--page .hero__header__menu {
 		top: 15%;
+	}
+
+	.section__subheader {
+		font-size: 21px;
 	}
 }
 

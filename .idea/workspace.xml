@@ -20,89 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4d02582-5d7c-43ee-a820-03c7aa307fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/kancelaria-prawnicza-wojciech-pilat.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kontakt.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo-sygnet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/page-tlo.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/wojciech-pilat-faq.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/wojciech-pilat-footer.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/wojciech-pilat.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/.stylelintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/archive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/contact.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/faq-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/information-button.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/kancelaria-prawnicza-wojciech-pilat.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/kontakt.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/logo-sygnet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/obsluga-prawna-firm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/odszkodowania.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/page-tlo.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/prawo-cywilne.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/prawo-karne.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/prawo-rodzinne.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/prawo-spadkowe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/rozwody.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/wojciech-pilat-faq.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/wojciech-pilat-footer.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/img/wojciech-pilat.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/inc/custom-header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/inc/customizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/inc/jetpack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/inc/template-functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/inc/template-tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/js/customizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/languages/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/languages/vislegis.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/phpcs.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/single.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/style-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/template-parts/content-none.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/template-parts/content-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/template-parts/content-search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/template-parts/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vis-legis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vis-legis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/header-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/page-kontakt.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kancelaria-prawnicza-wojciech-pilat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kontakt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo-sygnet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wojciech-pilat-faq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wojciech-pilat-footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wojciech-pilat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/img/wojciech-pilat-footer.webp" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/img/wojciech-pilat-footer.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/wordpress/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -135,6 +72,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis\wordpress" />
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis\wordpress\img" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis\wordpress\js" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis\img" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis" />
@@ -153,7 +91,9 @@
       <updated>1648901416320</updated>
       <workItem from="1648901417426" duration="7625000" />
       <workItem from="1649073086049" duration="20703000" />
-      <workItem from="1649177523952" duration="3104000" />
+      <workItem from="1649177523952" duration="3774000" />
+      <workItem from="1649184494108" duration="598000" />
+      <workItem from="1649351611651" duration="10061000" />
     </task>
     <servers />
   </component>

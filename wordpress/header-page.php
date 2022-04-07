@@ -22,28 +22,19 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div class="container">
-    <div class="waiter">
-        <figure class="waiter__imgWrapper">
-            <span class="waiter__firstBorder"></span>
-            <span class="waiter__secondBorder"></span>
-            <img width="199" height="150" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-sygnet.svg' ?>" alt="wojciech-pilat-logo" />
-        </figure>
-    </div>
-    <div class="hero">
+<div class="container container--page">
+    <div class="hero hero--page">
         <header class="hero__header flex">
             <a class="hero__header__logoWrapper" href="<?php echo home_url(); ?>">
-                <span class="waiter__firstBorder"></span>
-                <span class="waiter__secondBorder"></span>
-                <img width="199" height="150" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-sygnet.svg' ?>" alt="wojciech-pilat" />
+                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-sygnet.svg'; ?>" alt="wojciech-pilat" />
             </a>
             <div class="hero__header__menu">
                 <button class="mobileMenuBtn d-mobile" onclick="openMenu()">
-                    <img width="40" height="40" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/menu.svg' ?>" alt="menu" />
+                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/menu.svg'; ?>" alt="menu" />
                 </button>
                 <menu class="mobileMenu d-mobile">
                     <button class="mobileMenu__close" onclick="closeMenu()">
-                        <img width="20" height="20" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/close.svg' ?>" alt="zamknij" />
+                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/close.svg'; ?>" alt="zamknij" />
                     </button>
                     <ul class="mobileMenu__list">
                         <li class="mobileMenu__list__item mobileMenu__list__item--bold">
@@ -163,3 +154,4 @@
                 </ul>
             </div>
         </header>
+    </div>

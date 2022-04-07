@@ -26,12 +26,12 @@ get_header();
         </a>
     </main>
     <figure class="hero__backgroundWrapper">
-        <img width="2800" height="1867" onload="mainImageLoaded()" class="lozad hero__background" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/kancelaria-prawnicza-wojciech-pilat.webp' ?>" alt="kancelaria-prawnicza-wojeciech-pilat" />
+        <img width="2800" height="1867" class="lozad hero__background" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/kancelaria-prawnicza-wojciech-pilat.webp' ?>" alt="kancelaria-prawnicza-wojeciech-pilat" />
     </figure>
 </div>
 
-    <section class="section section--1 w flex">
-        <figure class="imgWrapper">
+    <section class="section section--1 w flex" id="omnie">
+        <figure class="imgWrapper" data-aos="fade-right">
             <img width="400" height="482" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/wojciech-pilat.webp' ?>" alt="wojciech-pilat" />
             <span class="span"></span>
         </figure>
@@ -39,30 +39,32 @@ get_header();
             <h2 class="section__header">
                 O mnie
             </h2>
-            <p class="section__text">
-                Absolwent Wydziału Prawa i Administracji Uniwersytetu Warmińsko-Mazurskiego w Olsztynie. W latach 2012-2014 odbywał aplikację adwokacką pod patronatem adw. Ryszarda Afeltowicza. Od 2015 roku wpisany na listę adwokatów Izby Adwokackiej w Olsztynie.
-            </p>
-            <p class="section__text">
-                Specjalizuje się w sprawach z zakresu prawa karnego i rodzinnego. Prowadzi również sprawy cywilne i spadkowe.
-            </p>
-            <p class="section__text">
-                Prywatnie pasjonuje się sportem, w szczególności siatkówką.
-            </p>
-            <span class="section__caption">
+            <div data-aos="fade-left">
+                <p class="section__text">
+                    Absolwent Wydziału Prawa i Administracji Uniwersytetu Warmińsko-Mazurskiego w Olsztynie. W latach 2012-2014 odbywał aplikację adwokacką pod patronatem adw. Ryszarda Afeltowicza. Od 2015 roku wpisany na listę adwokatów Izby Adwokackiej w Olsztynie.
+                </p>
+                <p class="section__text">
+                    Specjalizuje się w sprawach z zakresu prawa karnego i rodzinnego. Prowadzi również sprawy cywilne i spadkowe.
+                </p>
+                <p class="section__text">
+                    Prywatnie pasjonuje się sportem, w szczególności siatkówką.
+                </p>
+                <span class="section__caption">
                 Wojciech Piłat
             </span>
-            <span class="section__caption">
+                <span class="section__caption">
                 Adwokat Biskupiec
             </span>
+            </div>
         </article>
     </section>
 
-    <section class="section section--2 w">
+    <section class="section section--2 w" id="oferta">
         <h2 class="section__header">
             Zakres usług kancelarii
         </h2>
         <section class="offerBox__row flex">
-            <section class="offerBox flex">
+            <section class="offerBox flex" data-aos="fade-up">
                 <figure class="offerBox__imgWrapper">
                     <img width="80" height="80" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/prawo-karne.svg'; ?>" alt="prawo-karne" />
                 </figure>
@@ -76,7 +78,7 @@ get_header();
                     Więcej informacji
                 </a>
             </section>
-            <section class="offerBox flex">
+            <section class="offerBox flex" data-aos="fade-up">
                 <figure class="offerBox__imgWrapper">
                     <img width="80" height="80" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/rozwody.svg'; ?>" alt="rozwody" />
                 </figure>
@@ -90,7 +92,7 @@ get_header();
                     Więcej informacji
                 </a>
             </section>
-            <section class="offerBox flex">
+            <section class="offerBox flex" data-aos="fade-up">
                 <figure class="offerBox__imgWrapper">
                     <img width="80" height="80" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/prawo-rodzinne.svg'; ?>" alt="prawo-rodzinne" />
                 </figure>
@@ -104,7 +106,7 @@ get_header();
                     Więcej informacji
                 </a>
             </section>
-            <section class="offerBox flex">
+            <section class="offerBox flex" data-aos="fade-up">
                 <figure class="offerBox__imgWrapper">
                     <img width="80" height="80" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/prawo-cywilne.svg'; ?>" alt="prawo-cywilne" />
                 </figure>
@@ -120,7 +122,7 @@ get_header();
             </section>
         </section>
         <section class="offerBox__row flex">
-            <section class="offerBox flex">
+            <section class="offerBox flex" data-aos="fade-up">
                 <figure class="offerBox__imgWrapper">
                     <img width="80" height="80" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/prawo-spadkowe.svg'; ?>" alt="prawo-spadkowe" />
                 </figure>
@@ -134,7 +136,7 @@ get_header();
                     Więcej informacji
                 </a>
             </section>
-            <section class="offerBox flex">
+            <section class="offerBox flex" data-aos="fade-up">
                 <figure class="offerBox__imgWrapper">
                     <img width="80" height="80" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/odszkodowania.svg'; ?>" alt="odszkodowania" />
                 </figure>
@@ -148,7 +150,7 @@ get_header();
                     Więcej informacji
                 </a>
             </section>
-            <section class="offerBox flex">
+            <section class="offerBox flex" data-aos="fade-up">
                 <figure class="offerBox__imgWrapper">
                     <img width="80" height="80" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/obsluga-prawna-firm.svg'; ?>" alt="obsluga-prawna-firm" />
                 </figure>
@@ -172,7 +174,7 @@ get_header();
         <h3 class="faq__mobileHeader d-mobile">
             (naciśnij, by rozwinąć)
         </h3>
-        <div class="faq w flex">
+        <div class="faq w flex" data-aos="fade-up">
             <figure class="faq__imageWrapper">
                 <img width="561" height="413" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/wojciech-pilat-faq.webp'; ?>" alt="kancelaria-adwokacka-biskupiec" />
             </figure>
@@ -301,15 +303,29 @@ get_header();
         <h2 class="section__header">
             Skontaktuj się
         </h2>
-        <div id="map">
+    </section>
+    <div class="mapContents">
+        <div id="contentWindow">
+            <img class="contentImg" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-sygnet.svg'; ?>" alt="wojciech-pilat" />
+            <div class="contentText">
+                <h3 class="contentAdress bold">Kancelaria Adwokacka</h3>
+                <h3 class="contentAdress bold contentAdress--marginBottom">Wojciech Piłat</h3>
 
+                <h3 class="contentAdress">ul. Pionioerów 22/1</h3>
+                <h3 class="contentAdress">11-300 Biskupiec</h3>
+            </div>
         </div>
-        <section class="section section--3--1 w center">
-            <figure class="imgWrapper">
+    </div>
+    <div id="map" data-aos="zoom-in-up">
+
+    </div>
+    <section class="section section--3">
+        <section class="section section--3--1 w center" id="sectionContact">
+            <figure class="imgWrapper" data-aos="fade-right" data-aos-anchor="#sectionContact">
                 <img width="563" height="390" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/kontakt.webp'; ?>" alt="wojciech-pilat" />
                 <span class="span"></span>
             </figure>
-            <article class="section__article">
+            <article class="section__article" data-aos="fade-left" data-aos-anchor="#sectionContact">
                 <p class="section__text">
                     Adres: al. Niepodległości 4A/41, 11-300 Biskupiec
                 </p>

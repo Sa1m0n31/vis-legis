@@ -1,25 +1,3 @@
-
-    const waiter = document.querySelector('.waiter');
-    const hero = document.querySelector('.hero');
-
-    const mainImageLoaded = () => {
-        waiter.style.opacity = '0';
-        waiter.style.zIndex = '-10';
-        hero.style.opacity = '1';
-    }
-
-    const heroImage = document.querySelector('.hero__backgroundWrapper>img');
-    if(heroImage) {
-        if(heroImage.complete && heroImage.naturalHeight !== 0) {
-            mainImageLoaded();
-        }
-        else {
-            document.querySelector('.hero__backgroundWrapper>img').addEventListener('load', (event) => {
-                mainImageLoaded();
-            });
-        }
-    }
-
     let currentFaq = Array.from(document.querySelectorAll('.faq__content__block')).map((item, index) => {
         return false;
     });
@@ -82,10 +60,6 @@
     });
 
     /* Google Maps */
-    const initMap = () => {
-
-    }
-
     let myPosition = {lat: 53.863985012328, lng: 20.954080735473397};
 
     if(document.getElementById('map') !== null) {
@@ -112,3 +86,11 @@
             infoWindow.open(map, marker);
         });
     }
+
+    /* Fix Lighthouse error in Google Maps buttons */
+    const allMapButtons = Array.from(document.querySelectorAll('iframe button'));
+    allMapButtons.forEach((item) => {
+        item.removeAttribute('aria-label');
+        item.removeAttribute('aria-checked');
+        item.removeAttribute('aria-expanded');
+    });

@@ -64,13 +64,13 @@ get_header('page');
                         Wojciech Piłat
                     </span>
                 <span>
-                        <span class="bold">tel</span> 507 974 750
+                        <span class="bold">tel</span> <?php echo get_field('telefon', 49); ?>
                     </span>
                 <span>
                         <span class="bold">Sekretariat:</span> 56 564 22 11
                     </span>
                 <span>
-                        <span class="bold">Mail:</span> kontakt@adwokatpilat.pl
+                        <span class="bold">Mail:</span> <?php echo get_field('e-mail', 49); ?>
                     </span>
             </p>
         </div>
@@ -83,7 +83,7 @@ get_header('page');
                 <h3 class="contentAdress bold">Kancelaria Adwokacka</h3>
                 <h3 class="contentAdress bold contentAdress--marginBottom">Wojciech Piłat</h3>
 
-                <h3 class="contentAdress">ul. Pionioerów 22/1</h3>
+                <h3 class="contentAdress">ul. Pionierów 22/1</h3>
                 <h3 class="contentAdress">11-300 Biskupiec</h3>
             </div>
         </div>

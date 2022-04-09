@@ -14,6 +14,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="description" content="Kancelaria Adwokacka Wojciech Piłat, Biskupiec. Prawo karne, rozwody, prawo rodzinne, prawo cywilne, odszkodowania." />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
@@ -23,13 +24,13 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div class="container">
-    <div class="waiter">
-        <figure class="waiter__imgWrapper">
-            <span class="waiter__firstBorder"></span>
-            <span class="waiter__secondBorder"></span>
-            <img width="199" height="150" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-sygnet.svg' ?>" alt="wojciech-pilat-logo" />
-        </figure>
-    </div>
+<!--    <div class="waiter">-->
+<!--        <figure class="waiter__imgWrapper">-->
+<!--            <span class="waiter__firstBorder"></span>-->
+<!--            <span class="waiter__secondBorder"></span>-->
+<!--            <img width="199" height="150" class="lozad img" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/logo-sygnet.svg' ?><!--" alt="wojciech-pilat-logo" />-->
+<!--        </figure>-->
+<!--    </div>-->
     <div class="hero">
         <header class="hero__header flex">
             <a class="hero__header__logoWrapper" href="<?php echo home_url(); ?>">
@@ -41,7 +42,7 @@
                 <button class="mobileMenuBtn d-mobile" onclick="openMenu()">
                     <img width="40" height="40" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/menu.svg' ?>" alt="menu" />
                 </button>
-                <menu class="mobileMenu d-mobile">
+                <div class="mobileMenu d-mobile">
                     <button class="mobileMenu__close" onclick="closeMenu()">
                         <img width="20" height="20" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/close.svg' ?>" alt="zamknij" />
                     </button>
@@ -100,7 +101,7 @@
                             </a>
                         </li>
                     </ul>
-                </menu>
+                </div>
                 <ul class="hero__header__menu__list flex d-desktop">
                     <li class="hero__header__menu__item">
                         <a class="hero__header__menu__item__link" href="<?php echo home_url(); ?>">

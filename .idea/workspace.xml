@@ -20,17 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4d02582-5d7c-43ee-a820-03c7aa307fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wordpress/header-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/page-kontakt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/kancelaria-prawnicza-wojciech-pilat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/img/page-tlo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordpress/page-49.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/header-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/header-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/img/wojciech-pilat-footer.webp" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/img/wojciech-pilat-footer.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/page-kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/page-kontakt.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/style.css" afterDir="false" />
     </list>
@@ -65,16 +68,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wordpress" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wordpress/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis\wordpress" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis\wordpress\img" />
-      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis\wordpress\js" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis\img" />
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis\wordpress" />
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis\wordpress\js" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\vis-legis" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -93,7 +96,8 @@
       <workItem from="1649073086049" duration="20703000" />
       <workItem from="1649177523952" duration="3774000" />
       <workItem from="1649184494108" duration="598000" />
-      <workItem from="1649351611651" duration="10061000" />
+      <workItem from="1649351611651" duration="10671000" />
+      <workItem from="1649422817666" duration="15968000" />
     </task>
     <servers />
   </component>

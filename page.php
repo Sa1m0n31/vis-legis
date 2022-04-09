@@ -19,37 +19,35 @@ get_header('page');
         <div class="flex">
             <div class="page--left">
                 <h2 class="section__header">
-                    Obsługa prawna firm
+                    <?php echo get_the_title(); ?>
                 </h2>
-                <p class="page__text">
-                    Prawem karnym określa się zbiór przepisów, które jasno i wprost definiują czyny zabronione - w skrócie mówią nam to, czego nie wolno robić i jaka ewentualna kara nas czeka, gdy popełnimy czyn zabroniony. Oferujemy usługi z zakresu m.in. doradztwa i obrony. Przyjmujemy właściwe strategie obrony i pomagamy wyjść z konkretnych sytuacji w korzystny dla Klienta sposób.
-                </p>
+                <div class="page__text">
+                    <?php
+                        echo get_field('opis');
+                    ?>
+                </div>
                 <h3 class="section__subheader">
-                    Zakres usług w zakresie obsługi prawnej firm
+                    <?php
+                        echo get_field('naglowek');
+                    ?>
                 </h3>
                 <ul class="offerContent">
-                    <li class="offerContent__item">
-                        doradztwo prawne
-                    </li>
-                    <li class="offerContent__item">
-                        stała obsługa prawna przedsiębiorców
-                    </li>
-                    <li class="offerContent__item">
-                        doradztwo prawne
-                    </li>
-                    <li class="offerContent__item">
-                        doradztwo prawne
-                    </li>
-                    <li class="offerContent__item">
-                        doradztwo prawne
-                    </li>
-                    <li class="offerContent__item">
-                        doradztwo prawne
-                    </li>
+                    <?php
+                        $offer_points = explode(';', strip_tags(get_field('uslugi')));
+                        foreach($offer_points as $point) {
+                            ?>
+                            <li class="offerContent__item">
+                                <?php
+                                    echo $point;
+                                ?>
+                            </li>
+                                <?php
+                        }
+                    ?>
                 </ul>
             </div>
             <figure class="imgWrapper">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/wojciech-pilat.webp'; ?>" alt="wojciech-pilat" />
+                <img class="img" src="<?php echo get_field('zdjecie'); ?>" alt="<?php echo get_the_title(); ?>" />
                 <span class="span"></span>
             </figure>
         </div>
@@ -64,7 +62,7 @@ get_header('page');
                 <h3 class="contentAdress bold">Kancelaria Adwokacka</h3>
                 <h3 class="contentAdress bold contentAdress--marginBottom">Wojciech Piłat</h3>
 
-                <h3 class="contentAdress">ul. Pionioerów 22/1</h3>
+                <h3 class="contentAdress">ul. Pionierów 22/1</h3>
                 <h3 class="contentAdress">11-300 Biskupiec</h3>
             </div>
         </div>

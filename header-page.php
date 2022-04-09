@@ -14,6 +14,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="description" content="Kancelaria Adwokacka Wojciech Piłat, Biskupiec. Prawo karne, rozwody, prawo rodzinne, prawo cywilne, odszkodowania." />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
@@ -32,7 +33,7 @@
                 <button class="mobileMenuBtn d-mobile" onclick="openMenu()">
                     <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/menu.svg'; ?>" alt="menu" />
                 </button>
-                <menu class="mobileMenu d-mobile">
+                <div class="mobileMenu d-mobile">
                     <button class="mobileMenu__close" onclick="closeMenu()">
                         <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/close.svg'; ?>" alt="zamknij" />
                     </button>
@@ -43,7 +44,7 @@
                             </a>
                         </li>
                         <li class="mobileMenu__list__item mobileMenu__list__item--bold">
-                            <a class="mobileMenu__list__link" href="#omnie">
+                            <a class="mobileMenu__list__link" href="<?php echo home_url() . '#omnie'; ?>">
                                 O mnie
                             </a>
                         </li>
@@ -91,7 +92,7 @@
                             </a>
                         </li>
                     </ul>
-                </menu>
+                </div>
                 <ul class="hero__header__menu__list flex d-desktop">
                     <li class="hero__header__menu__item">
                         <a class="hero__header__menu__item__link" href="<?php echo home_url(); ?>">
@@ -99,7 +100,7 @@
                         </a>
                     </li>
                     <li class="hero__header__menu__item">
-                        <a class="hero__header__menu__item__link" href="#omnie">
+                        <a class="hero__header__menu__item__link" href="<?php echo home_url() . '#omnie'; ?>">
                             O mnie
                         </a>
                     </li>

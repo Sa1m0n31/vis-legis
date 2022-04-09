@@ -13,7 +13,7 @@
 
 <footer class="section section--footer w flex">
     <a class="footer__logo" href="<?php echo home_url(); ?>">
-        <img width="380" height="187" class="lozad img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/wojciech-pilat-footer.webp' ?>" alt="kancelaria-adwokacka-biskupiec" />
+        <img width="380" height="187" class="lozad img" src="<?php echo get_field('stopka_-_zdjecie', 49); ?>" alt="kancelaria-adwokacka-biskupiec" />
     </a>
     <div class="footer__cols flex">
         <div class="footer__col">
@@ -67,13 +67,13 @@
                 <b>
                     tel:
                 </b>
-                507 974 750 - Wojciech Piłat
+                <?php echo get_field('telefon', 49); ?>
             </span>
             <span class="footer__col__link">
                 <b>
                     mail:
                 </b>
-                kontakt@adwokatpilat.pl
+                <?php echo get_field('e-mail', 49); ?>
             </span>
         </div>
         <div class="footer__col">
@@ -81,32 +81,23 @@
                 Dane Kancelarii
             </h6>
             <span class="footer__col__link bold">
-                Kancelaria Adwokacja Wojciech Piłat
+                Kancelaria Adwokacka Wojciech Piłat
             </span>
-            <span class="footer__col__link">
-                ul. Pionioerów 22/1 (wejście od ul. Szpitalnej)
-            </span>
-            <span class="footer__col__link">
-                11-300 Biskupiec
-            </span>
-            <span class="footer__col__link">
-                NIP: 8451899018
-            </span>
+            <div class="footer__col__link">
+               <?php echo get_field('dane_kancelarii', 49); ?>
+            </div>
             <span class="footer__col__link bold footer--marginTop">
                 Numer rachunku bankowego
             </span>
             <span class="footer__col__link">
-                23 3292 1000 1222 2884 2383 2388 (ING Bank Śląski S.A.)
+                <?php echo get_field('numer_rachunku_bankowego', 49); ?>
             </span>
             <span class="footer__col__link bold footer--marginTop">
                 Filia w Olsztynie
             </span>
-            <span class="footer__col__link">
-                ul. Kętrzyńskiego 4/4
-            </span>
-            <span class="footer__col__link">
-                10-507 Olsztyn
-            </span>
+            <div class="footer__col__link">
+               <?php echo get_field('filia_w_olsztynie', 49); ?>
+            </div>
         </div>
     </div>
 </footer>

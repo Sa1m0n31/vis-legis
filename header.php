@@ -121,7 +121,7 @@
                         <ul class="hero__header__menu__dropdown">
                             <li>
                                 <a href="<?php echo get_page_link(get_page_by_title('Prawo karne')->ID); ?>">
-                                    Prawno karne
+                                    Prawo karne
                                 </a>
                             </li>
                             <li>
@@ -131,17 +131,17 @@
                             </li>
                             <li>
                                 <a href="<?php echo get_page_link(get_page_by_title('Prawo rodzinne')->ID); ?>">
-                                    Prawno rodzinne
+                                    Prawo rodzinne
                                 </a>
                             </li>
                             <li>
                                 <a href="<?php echo get_page_link(get_page_by_title('Prawo cywilne')->ID); ?>">
-                                    Prawno cywilne
+                                    Prawo cywilne
                                 </a>
                             </li>
                             <li>
                                 <a href="<?php echo get_page_link(get_page_by_title('Prawo spadkowe')->ID); ?>">
-                                    Prawno spadkowe
+                                    Prawo spadkowe
                                 </a>
                             </li>
                             <li>

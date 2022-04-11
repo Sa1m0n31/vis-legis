@@ -27,6 +27,8 @@
     <div class="hero hero--page">
         <header class="hero__header flex">
             <a class="hero__header__logoWrapper" href="<?php echo home_url(); ?>">
+                <span class="waiter__firstBorder"></span>
+                <span class="waiter__secondBorder"></span>
                 <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-sygnet.svg'; ?>" alt="wojciech-pilat" />
             </a>
             <div class="hero__header__menu">
@@ -112,7 +114,7 @@
                         <ul class="hero__header__menu__dropdown">
                             <li>
                                 <a href="<?php echo get_page_link(get_page_by_title('Prawo karne')->ID); ?>">
-                                    Prawno karne
+                                    Prawo karne
                                 </a>
                             </li>
                             <li>
@@ -122,17 +124,17 @@
                             </li>
                             <li>
                                 <a href="<?php echo get_page_link(get_page_by_title('Prawo rodzinne')->ID); ?>">
-                                    Prawno rodzinne
+                                    Prawo rodzinne
                                 </a>
                             </li>
                             <li>
                                 <a href="<?php echo get_page_link(get_page_by_title('Prawo cywilne')->ID); ?>">
-                                    Prawno cywilne
+                                    Prawo cywilne
                                 </a>
                             </li>
                             <li>
                                 <a href="<?php echo get_page_link(get_page_by_title('Prawo spadkowe')->ID); ?>">
-                                    Prawno spadkowe
+                                    Prawo spadkowe
                                 </a>
                             </li>
                             <li>

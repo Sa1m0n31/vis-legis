@@ -129,7 +129,7 @@ ul {
 .hero--page {
 	height: 159px;
 	min-height: 0;
-	background-image: url("imgage-tlo.png");
+	background-image: url("./img/page-tlo.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 20px;
@@ -223,7 +223,7 @@ ul {
 
 .hero__main__header {
 	font-size: 50px;
-	font-weight: 500;
+	font-weight: 400;
 	position: relative;
 }
 
@@ -242,6 +242,7 @@ ul {
 	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
 	max-width: 450px;
+	font-weight: 400;
 }
 
 .hero__main__btn {
@@ -249,6 +250,7 @@ ul {
 	width: 450px;
 	height: 75px;
 	font-size: 26px;
+	font-weight: 400;
 	border: 2px solid var(--gold);
 }
 
@@ -770,6 +772,20 @@ a.footer__col__link:hover {
 	right: 4px;
 }
 
+.container--page .hero__header__logoWrapper .waiter__firstBorder {
+	width: 57px;
+	height: 65px;
+}
+
+.container--page .hero__header__logoWrapper .waiter__secondBorder {
+	width: 71px;
+	height: 73px;
+}
+
+.container--page .hero__header__logoWrapper {
+	margin-top: 10px;
+}
+
 .hero__header__logoWrapper:hover .waiter__firstBorder {
 	width: 100px;
 	height: 86px;
@@ -778,6 +794,16 @@ a.footer__col__link:hover {
 .hero__header__logoWrapper:hover .waiter__secondBorder {
 	width: 94px;
 	height: 89px;
+}
+
+.container--page .hero__header__logoWrapper:hover .waiter__firstBorder {
+	width: 50px;
+	height: 60px;
+}
+
+.container--page .hero__header__logoWrapper:hover .waiter__secondBorder {
+	width: 62px;
+	height: 63px;
 }
 
 .hero__header__logoWrapper .img {
@@ -1047,6 +1073,15 @@ a.footer__col__link:hover {
 	.hero:not(.hero--page) .hero__header__logoWrapper .img {
 		margin-bottom: -8px;
 		margin-top: 8px;
+	}
+
+	.container--page .hero__header__logoWrapper {
+		margin-top: 0;
+	}
+
+	.container--page .hero__header__logoWrapper .waiter__firstBorder,
+	.container--page .hero__header__logoWrapper .waiter__secondBorder {
+		display: none;
 	}
 
 	.hero__main__text {

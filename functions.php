@@ -147,7 +147,7 @@ function vislegis_scripts() {
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js?n=33', array('lozad', 'AOS', 'google-maps'), 16.0, true );
 	wp_enqueue_script( 'lozad', 'https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js', array(), 1.0, true );
 
-    wp_enqueue_style( 'vislegis-style', get_stylesheet_uri() . '?n=20', array('AOS_animate'), 11.0 );
+    wp_enqueue_style( 'vislegis-style', get_stylesheet_uri() . '?n=28', array('AOS_animate'), 19.0 );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

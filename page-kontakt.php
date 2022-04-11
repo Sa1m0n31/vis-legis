@@ -66,10 +66,6 @@ get_header('page');
                 <span>
                         <span class="bold">tel</span> <?php echo get_field('telefon', 49); ?>
                     </span>
-                <span>
-                        <span class="bold">Sekretariat:</span> 56 564 22 11
-                    </span>
-                <span>
                         <span class="bold">Mail:</span> <?php echo get_field('e-mail', 49); ?>
                     </span>
             </p>
